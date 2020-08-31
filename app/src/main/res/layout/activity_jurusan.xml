@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#817575">
+
+    <TextView
+        android:id="@+id/jurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR JURUSAN SMKN 4"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="30dp"/>
+    <View
+        android:id="@+id/viu"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:background="#fff"
+        android:layout_below="@id/jurus"
+        />
+
+    <ImageView
+        android:id="@+id/rpl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_computer_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/viu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trpl"
+        android:layout_marginLeft="30dp"
+        android:text="Rekayasa Perangkat Lunak"
+        android:background="#178529"
+        android:textColor="#fff"
+        android:layout_below="@id/jurus"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/rpl"/>
+
+    <ImageView
+        android:id="@+id/tkj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_network_check_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/rpl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tkjj"
+        android:layout_marginLeft="30dp"
+        android:text="Teknik Komputer Jaringan"
+        android:background="#FF0000"
+        android:textColor="#fff"
+        android:layout_below="@id/rpl"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/rpl"/>
+
+    <ImageView
+        android:id="@+id/mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tkj"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmm"
+        android:layout_marginLeft="30dp"
+        android:text="Multimedia "
+        android:background="#673AB7"
+        android:textColor="#fff"
+        android:layout_below="@id/tkj"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/rpl"/>
+
+    <ImageView
+        android:id="@+id/titl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_flash_on_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/mm"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mmm"
+        android:layout_marginLeft="30dp"
+        android:text="Teknik Instalasi Tenaga Listrik "
+        android:background="#0004FF"
+        android:textColor="#fff"
+        android:layout_below="@id/mm"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/mm"/>
+
+    <ImageView
+        android:id="@+id/toi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_ev_station_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/titl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tooi"
+        android:layout_marginLeft="30dp"
+        android:text="Teknik Otomasi Industri "
+        android:background="#FFFFFF"
+        android:textColor="#424040"
+        android:layout_below="@id/titl"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/toi"/>
+
+    <ImageView
+        android:id="@+id/av"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_speaker_group_24"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/toi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teav"
+        android:layout_marginLeft="30dp"
+        android:text="Teknik Elektronika Audio Video "
+        android:background="#FFC107"
+        android:textColor="#474242"
+        android:layout_below="@id/toi"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/av"/>
+
+
+
+
+
+
+
+</RelativeLayout>
